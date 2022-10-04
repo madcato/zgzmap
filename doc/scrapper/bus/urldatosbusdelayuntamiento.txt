@@ -1,0 +1,64 @@
+Descripción
+Líneas y paradas de los autobuses urbanos de la ciudad de Zaragoza.
+Se han incluido los autobuses de barrios rurales
+
+HERRAMIENTAS PARA DESARROLLADORES:
+Para conocer las líneas de autobus de las que se disponen datos, se deberá acceder a: 
+http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/transporte-urbano/linea.(json|xml|csv)
+
+Para acceder al recorrido y paradas de una línea.
+Ejemplo: http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/transporte-urbano/linea/35.(json|xml|csv)
+
+Para obtener sólo las paradas
+http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/transporte-urbano/poste.(json|xml|csv)
+
+Para obtener las coordenadas en formato wgs84 (google) o utm30n incluir el parametro srname.
+Ejemplo: www.zaragoza.es/api/recurso/urbanismo-infraestructuras/transporte-urbano/linea/35.(json|xml|csv)?srsname=wgs84
+
+Nota: Para la línea 44 existen dos archivos 44.json para los trayectos (laborables de 7:46 a 21:25) que llegan al CPS y 44_CORTO.json para el resto
+
+Nota: Para la línea 23 existen dos archivos 23.json para los trayectos (de lunes a viernes, de 6,45 a 16,00 horas) que llegan a la Ciudad de la Justicia y 23_CORTO.json para el resto
+
+Materia
+Transporte
+Etiquetas
+movilidad urbana,servicio público,autobus
+Idioma
+es
+Fecha de Creación
+01-03-2013
+Última actualización
+11-06-2014
+Editor
+Ayuntamiento de Zaragoza. Servicio de Movilidad Urbana
+Lugar
+Zaragoza
+Pagina Destino
+http://www.zaragoza.es/ciudad/viapublica/movilidad/movi/bus.htm
+Las condiciones de reutilización se encuentran recogidas en el Aviso Legal
+
+
+
+URL
+
+http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/transporte-urbano/poste.json?srsname=wgs84
+
+
+
+Transformar esto:
+
+{"link":"http://www.urbanosdezaragoza.es/frm_esquemaparadatime.php?poste=1","title":"(1) Principio de Línea Líneas: 501","icon":"//www.zaragoza.es/contenidos/iconos/bus.png","geometry":{"type":"Point","coordinates":[-0.8884065981486476,41.65004988218857]}}
+
+
+en esto:
+
+<dict>
+	<key>name</key>
+	<string>20, 23, 42, 43, 50, CI1</string>
+	<key>longitude</key>
+	<string>-0.8909238402828931</string>
+	<key>latitude</key>
+	<string>41.671947877501744</string>
+	<key>url</key>
+	<string>http://www.urbanosdezaragoza.es/tuzsa_frm_esquemaparadatime.php?poste=3062</string>
+</dict>

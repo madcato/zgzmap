@@ -1,0 +1,59 @@
+{'WFSResponse': {'namesList':['Paseo Independencia  nº 8','Paseo Independencia  nº 11','San Vicente de Paul nº 28','Teniente Coronel Valenzuela nº 7','Gran Vía nº 37','Isaac Peral nº 14','Camino de las Torres nº 24','Camino de las Torres nº 118','León XIII nº 3','León XIII nº 17','Avenida César Augusto nº 31','Avenida César Augusto nº 7','Paseo María Agustín','Paseo María Agustín','Santa Inés nº 11','Vicente Verdusán nº  46','Arzobispo Morcillo nº 44','Isabel la Católica','Isabel la Católica','Calamita nº 4','Condes de Aragón nº 14','Eduardo Ibarra (Auditorio)','Argualas','San Juan Bosco','San Juan Bosco','San Juan Bosco','Andrés Vicente nº 1 y 3','Oliván nº 3','Las Estrellas nº 13','Ramón J. Sender','Avenida de Navarra nº 75 y 77','Paseo de Calanda nº 22','Avenida de Madrid nº 95 y 97','Avenida Pablo Gargallo nº 75','María Zambrano - Gómez Avellaneda','Gómez de Avellaneda nº 55 y 57','Avenida María Zambra nº 58','Río Martín nº 1','Pedro Lázaro s/n','Felisa Galé nº 6','Salvador Minguijón nº 42','Juana de Ibarbourou nº 1','Avenida Tenor Fleta nº 57','Avenida América nº 20','San Antonio de Padua s/n','Cementerio Torrero (Tanatorio)','Avenida María Zambrano nº 16','Gómez de Avellaneda','Gómez de Avellaneda nº 39','Avenida de Santa Isabel nº 86','Sobrarbe nº 1'],'urlList':['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','',''],'categoryList':['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','',''],'subCategoryList':['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','',''],'iconoGrandeList':['taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png','taxis20.png'],'iconoMedioList':['taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png','taxis14.png'],'iconoPeqList':['0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232','0-138-232'],'posXList':[676454.484034033,676511.687589593,677048.189929288,676367.264347664,675739.41497934,676515.060979661,676964.638955376,676176.81253633,676615.670081157,676473.960969328,676274.118818726,676090.96107924,675953.235071087,675863.734948258,675743.95466467,675059.382699047,675719.49147487,674978.270253602,675017.930811762,674985.138454919,674560.184042752,674830.001953286,674068.339924423,674716.709961253,674675.999965532,674695.999419358,673755.597263233,673118.068589528,671995.651030907,673410.330023724,674307.134967726,674623.594746865,674933.355988376,674931.053060476,675817.08362673,675663.272979199,675813.085039816,679442.309699173,678306.932996456,678186.808333062,678200.572931488,677581.625772987,676671.422938823,676240.578865968,676937.248292757,676075.071039714,675856.118010156,675661.143463563,675711.629086702,680622.06967355,677113.09354349],'posYList':[4613433.15997641,4613422.19442142,4613652.99000915,4613580.42105136,4612678.54999194,4613214.86001352,4612823.61000239,4612192.50002717,4612952.29005108,4612821.75999995,4613702.22800928,4613374.36001754,4613263.52203721,4613378.23001208,4614164.83504814,4613224.0130518,4611806.99592709,4611634.69340415,4611675.67590486,4611489.780077,4612068.46902436,4612013.69992273,4610544.31001266,4612561.13000572,4612542.49992204,4612553.19704658,4613330.7699766,4613072.63099086,4612398.87594115,4613893.91994648,4613844.73295954,4613569.90695498,4613744.11994649,4614465.60297319,4615399.20489127,4615701.609965,4616322.13608779,4615557.75601728,4614856.680061,4614795.10501697,4613240.28805351,4612508.48504134,4612088.75499958,4611224.83906042,4610625.62031759,4610350.55293751,4615510.19998571,4616283.23045971,4615404.90011508,4615278.94104171,4614370.46499602]}}
+
+x,y -> f,c 
+{var b=f*20037508.34/180;var g=Math.log(Math.tan((90+c)*Math.PI/360))/(Math.PI/180);g=g*20037508.34/180;return new OpenLayers.LonLat(b,g)
+
+
+
+
+
+
+var coordAux1 = coordTransform("EPSG:23030", "EPSG:4326", maximoExtent.left, maximoExtent.top);
+var coordAux2 = coordTransform("EPSG:23030", "EPSG:4326", maximoExtent.right, maximoExtent.bottom);
+
+var pointAux1 = google.forwardMercator(coordAux1[0], coordAux1[1]);
+var pointAux2 = google.forwardMercator(coordAux2[0], coordAux2[1]);
+
+var maximoGoogleExtent = new OpenLayers.Bounds(pointAux1.lon, pointAux2.lat, pointAux2.lon, pointAux1.lat);
+google.maxExtent = maximoGoogleExtent;
+
+
+var centerGoogle = map.getCenter();
+                   var coordAux = google.inverseMercator(centerGoogle.lon, centerGoogle.lat);
+                   var coordAux2 = coordTransform("EPSG:4326", "EPSG:23030", coordAux.lon, coordAux.lat);
+                   var centerIdezar = new OpenLayers.LonLat(coordAux2[0], coordAux2[1]);
+                   
+                   //Cuando la capa base es IDEZar, pido el catastro en 23030
+                   map.projection = 'EPSG:23030';
+                   map.resolution = map.getResolution();
+                   map.resolutions = map.baseLayer.resolutions;
+   
+                   if((iconsLayer != undefined) && (iconsLayer != null))
+                   {
+                       //Cuando la capa base es IDEZar, pido las capas en 23030                    
+                       iconsLayer.projection = 'EPSG:23030';
+                       iconsLayer.params['SRS'] = 'EPSG:23030';
+                   }
+                   
+                   if (navigator.appName == "Microsoft Internet Explorer")
+                   {
+                       resize();
+                   }
+                   getMap().setCenter(centerIdezar, null, null, true); //Pongo 'forceZoomChange' a true para que borre el grid de tiles y pida solo una vez los tiles
+                   getMap().zoomToScale(scale);
+   
+                   if(thematicLayer)
+                   {
+                       for (var i = 0; i < thematicLayer.features.length; i++) 
+                       {
+                           var feature = thematicLayer.features[i];
+                           var newLonLatAux = google.inverseMercator(feature.marker.lonlat.lon, feature.marker.lonlat.lat);
+                           var newLonLat = coordTransform("EPSG:4326", mapSrs, newLonLatAux.lon, newLonLatAux.lat);
+                           feature.marker.lonlat.lon = newLonLat[0];
+                           feature.marker.lonlat.lat = newLonLat[1];
+                           thematicLayer.drawMarker(feature.marker);
+                       }
+                   }
+               }
+               selectedBaseLayer = "IDEZar";
+           }

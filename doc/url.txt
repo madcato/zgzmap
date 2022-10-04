@@ -1,0 +1,59 @@
+UTM -> Longitud, latitude
+http://www.rcn.montana.edu/resources/tools/coordinates.aspx?nav=11&c=UTM&md=83&mdt=NAD83/WGS84&z=30&e=677113&n=4614370&h=N
+
+Incidenciaas de tráfico
+http://www.zaragoza.es/georss/feed?id=2
+
+Archivos municipales NO SIRVE
+http://www.zaragoza.es/ciudad/rdf/hilo/ver_Centro?georss_id=34
+
+
+FARMACIAS
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Farmacias&srsname=4326
+
+
+PARKINGS PUBLICOS
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Aparcamientos&srsname=4326
+
+
+ESTACIONES AUTOBUSES
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Transporte%20Urbano&srsname=4326
+
+
+* Parking bizi
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=AparcaBicis&srsname=4326
+
+Paradas TAXI
+http://idezar.zaragoza.es/clientesIDEZarOL/visualizadorTematico/index.html?tema=taxis
+
+
+Estaciones de servicio
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Estaciones%20de%20Servicio&srsname=4326
+
+* Centro de congresos
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Palacios%20de%20Congresos&srsname=4326
+
+
+Centro de salud
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Centros%20de%20Salud&srsname=4326
+
+
+Monumentos
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Monumentos&srsname=4326
+
+Oficinas de turismo
+http://idezar.zaragoza.es/wfss/wfss?request=GetFeature&featureType=PuntosDeInteres&propertyNames=posicion,url,nombre,icono_grande&subtema=Oficinas%20de%20Turismo&srsname=4326
+
+Recarga tarjeta bus
+http://www.tuzsa.es/tuzsa_frm_recarga.php
+
+* WIFI
+http://www.zaragoza.es/georref/json/hilo/ver_Wifi?srsname=wgs84
+http://www.zaragoza.es/ciudad/sectores/tecnologia/tecno/wifipuntos.htm
+
+*Alojamientos
+ 
+* Servicios sociales
+
+Ibercaja y mas 
+http://www.todo-poi.es/descargas/poieditGOOGLE/Ibercaja.kml

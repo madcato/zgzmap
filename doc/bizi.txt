@@ -1,0 +1,44 @@
+Bizi zaragoza
+
+https://www.bizizaragoza.com/
+
+
+Estaciones de bizi de zaragoza
+http://www.bizizaragoza.com/localizaciones/station_map.php?TU5fTE9DQUxJWkFDSU9ORVM%3D&MQ%3D%3D
+
+
+Estado de una estación 
+http://www.bizizaragoza.com/callwebservice/StationBussinesStatus.php
+
+parámetros de entrada
+idStation:62
+addressnew:QVZEQS4gTUFSUVXJUyBERSBMQSBDQURFTkEgLSBBVkRBLiBTQU4gSlVBTiBERSBMQSA
+s_id_idioma:es
+
+Respuesta:
+    <link rel="stylesheet" type="text/css" href="/general/estilos/estilos.css.php" />
+<link rel="stylesheet" type="text/css" href="/general/estilos/estilos_interior.css.php" />
+
+<pre>
+</pre>
+<div style="margin:10px">
+
+<div style="font:bold 11px verdana;color:#DE0516;margin-bottom:10px"> 
+62 AVDA. MARQUÉS DE LA CADENA - AVDA. SAN JUAN DE LA <br>
+</div>
+<div style="text-align:right;float:left;font:bold 11px verdana">
+Bicicletas : 1<br>
+    Aparcamientos : 20  
+
+</div><br /><br /><br />
+<div align = "right" style="font:normal 12px verdana;color:#000000;margin-bottom:10px">
+Información actualizada: 12:50:18</div>
+</div>
+
+
+
+idStation="+113+"&addressnew=VklBIEhJU1BBTklEQUQgQ09OIEdPTUVaIExBR1VOQQ=="+"&s_id_idioma="+"es"
+
+http://www.bizizaragoza.com/callwebservice/StationBussinesStatus.php?idStation=113&addressnew=VklBIEhJU1BBTklEQUQgQ09OIEdPTUVaIExBR1VOQQ==&s_id_idioma=es
+
+con POST
