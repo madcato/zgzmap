@@ -9,7 +9,7 @@ class LocationDelegate: NSObject,ObservableObject,CLLocationManagerDelegate{
         guard let location = manager.location else {
             return MKCoordinateRegion.zgzRegion().getBinding()
         }
-        let region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        let region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: 1500, longitudinalMeters: 1500)
         return region.getBinding()
     }
     

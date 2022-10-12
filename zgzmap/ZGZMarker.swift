@@ -1,7 +1,7 @@
 import MapKit
 import SwiftUI
 
-struct ZGZMarker: Identifiable {
+class ZGZMarker: Identifiable {
     var id: UUID
     var location: CLLocationCoordinate2D
     var name: String
@@ -9,6 +9,19 @@ struct ZGZMarker: Identifiable {
         self.id = id
         self.location = CLLocationCoordinate2D(latitude: lat, longitude: lng)
         self.name = name
+    }
+}
+
+class BiziMarker: ZGZMarker {
+    var url: String = ""
+}
+
+class BusMarker: ZGZMarker {
+    var url: String = ""
+    
+    init(lat: Double, lng: Double, name: String, url: String) {
+        super.init(lat: lat, lng: lng, name: name)
+        self.url = url
     }
 }
 

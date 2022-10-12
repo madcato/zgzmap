@@ -4,13 +4,13 @@ import SwiftUI
 struct ContentView: View {
     @State var tracking : MapUserTrackingMode = .follow
     @StateObject var managerDelegate = LocationDelegate()
-    let markers: [ZGZMarker]
+    let model: Model
     
     var body: some View {
         NavigationView {
             if let region = managerDelegate.region {
-                Map(coordinateRegion: region, interactionModes: .all, showsUserLocation: true, userTrackingMode: $tracking, annotationItems: markers) { marker in
-                    MapMarker(coordinate: marker.location)
+                Map(coordinateRegion: region, interactionModes: .all, showsUserLocation: true, userTrackingMode: $tracking, annotationItems: model.markers) { marker in
+                    markerView(for: marker)
                 }
                 .edgesIgnoringSafeArea(.all)
                 .navigationTitle("zgzmap")
@@ -24,7 +24,11 @@ struct ContentView: View {
                     }
                 }
             }
-        }
+        }.onAppear { model.loadData() }
+    }
+    
+    private func markerView(for marker: ZGZMarker) -> MapMarker {
+        MapMarker(coordinate: marker.location)
     }
 }
 
@@ -38,6 +42,6 @@ extension ContentView {
 // MARK: - Preview
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(markers: testData)
+        ContentView(model: Model(markers: testData))
     }
 }
