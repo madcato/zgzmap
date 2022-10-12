@@ -2,21 +2,42 @@ import MapKit
 import SwiftUI
 
 struct ContentView: View {
-    @State var mapRegion:MKCoordinateRegion
+    @State var tracking : MapUserTrackingMode = .follow
+    @StateObject var managerDelegate = LocationDelegate()
     let markers: [ZGZMarker]
     
     var body: some View {
         NavigationView {
-            Map(coordinateRegion: $mapRegion, annotationItems: markers) { marker in
-                MapMarker(coordinate: marker.location)
+            if let region = managerDelegate.region {
+                Map(coordinateRegion: region, interactionModes: .all, showsUserLocation: true, userTrackingMode: $tracking, annotationItems: markers) { marker in
+                    MapMarker(coordinate: marker.location)
+                }
+                .edgesIgnoringSafeArea(.all)
+                .navigationTitle("zgzmap")
+                .toolbar {
+                    ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        Button {
+                            onCenterInUserTapped()
+                        } label: {
+                            Image("arrow").tint(.red)
+                        }
+                    }
+                }
             }
-            .navigationTitle("zgzmap")
         }
     }
 }
 
+// MARK: - Actions
+extension ContentView {
+    private func onCenterInUserTapped() {
+        managerDelegate.location = managerDelegate.location
+    }
+}
+
+// MARK: - Preview
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(mapRegion: zgz, markers: testData)
+        ContentView(markers: testData)
     }
 }

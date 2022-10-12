@@ -6,7 +6,7 @@ import SwiftUI
 struct zgzmapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(mapRegion: zgz, markers: testData)
+            ContentView(markers: testData)
         }
     }
 }
