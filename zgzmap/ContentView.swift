@@ -1,21 +1,22 @@
-//
-//  ContentView.swift
-//  zgzmap
-//
-//  Created by Daniel Vela on 4/10/22.
-//
-
+import MapKit
 import SwiftUI
 
 struct ContentView: View {
+    @State var mapRegion:MKCoordinateRegion
+    let markers: [ZGZMarker]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Map(coordinateRegion: $mapRegion, annotationItems: markers) { marker in
+                MapMarker(coordinate: marker.location)
+            }
+            .navigationTitle("zgzmap")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(mapRegion: zgz, markers: testData)
     }
 }

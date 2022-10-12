@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BB24A9E28F6B39C0024A9B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB24A9D28F6B39C0024A9B6 /* MapKit.framework */; };
+		0BBED21828F6B1570056FF92 /* ZGZMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBED21728F6B1570056FF92 /* ZGZMarker.swift */; };
 		0BEFB93028EC07CB00402916 /* zgzmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEFB92F28EC07CB00402916 /* zgzmapApp.swift */; };
 		0BEFB93228EC07CB00402916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEFB93128EC07CB00402916 /* ContentView.swift */; };
 		0BEFB93428EC07CC00402916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEFB93328EC07CC00402916 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BB24A9D28F6B39C0024A9B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0BBED21728F6B1570056FF92 /* ZGZMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGZMarker.swift; sourceTree = "<group>"; };
 		0BEFB92C28EC07CB00402916 /* zgzmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zgzmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEFB92F28EC07CB00402916 /* zgzmapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zgzmapApp.swift; sourceTree = "<group>"; };
 		0BEFB93128EC07CB00402916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,17 +32,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB24A9E28F6B39C0024A9B6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB24A9C28F6B39C0024A9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB24A9D28F6B39C0024A9B6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0BEFB92328EC07CB00402916 = {
 			isa = PBXGroup;
 			children = (
 				0BEFB92E28EC07CB00402916 /* zgzmap */,
 				0BEFB92D28EC07CB00402916 /* Products */,
+				0BB24A9C28F6B39C0024A9B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +71,7 @@
 				0BEFB93D28EC081700402916 /* zgzmap.entitlements */,
 				0BEFB92F28EC07CB00402916 /* zgzmapApp.swift */,
 				0BEFB93128EC07CB00402916 /* ContentView.swift */,
+				0BBED21728F6B1570056FF92 /* ZGZMarker.swift */,
 				0BEFB93328EC07CC00402916 /* Assets.xcassets */,
 				0BEFB93528EC07CC00402916 /* Preview Content */,
 			);
@@ -141,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBED21828F6B1570056FF92 /* ZGZMarker.swift in Sources */,
 				0BEFB93228EC07CB00402916 /* ContentView.swift in Sources */,
 				0BEFB93028EC07CB00402916 /* zgzmapApp.swift in Sources */,
 			);
